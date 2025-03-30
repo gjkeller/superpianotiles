@@ -13,6 +13,9 @@
     "initializer_list": "cpp",
     "span": "cpp",
     "regex": "cpp",
-    "cstdint": "cpp"
+    "cstdint": "cpp",
+    "chrono": "cpp",
+    "random": "cpp",
+    "mutex": "cpp"
   }
 }
