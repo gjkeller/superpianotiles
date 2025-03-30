@@ -1,0 +1,862 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/cores/esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/variants/esp32"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "ArduinoJson.h",
+    "Includepath": "/Users/gabriel/Documents/Arduino/libraries/ArduinoJson/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/SPI/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "SD.h",
+    "Includepath": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/SD/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "FS.h",
+    "Includepath": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/FS/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "AudioTools.h",
+    "Includepath": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-tools/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/WiFi/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "Network.h",
+    "Includepath": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/Network/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "WiFiClientSecure.h",
+    "Includepath": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/NetworkClientSecure/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "AudioBoard.h",
+    "Includepath": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/Wire/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "MP3DecoderHelix.h",
+    "Includepath": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "FastLED.h",
+    "Includepath": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src"
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/build/sketch/game.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/SPI/src/SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/SD/src/SD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/SD/src/sd_diskio.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/SD/src/sd_diskio_crc.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/FS/src/FS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/FS/src/vfs_api.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-tools/src/AudioTools/CoreAudio/AudioRuntime.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/WiFi/src/AP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/WiFi/src/STA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/WiFi/src/WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/WiFi/src/WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/WiFi/src/WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/WiFi/src/WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/WiFi/src/WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/WiFi/src/WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/Network/src/NetworkClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/Network/src/NetworkEvents.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/Network/src/NetworkInterface.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/Network/src/NetworkManager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/Network/src/NetworkServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/Network/src/NetworkUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/NetworkClientSecure/src/NetworkClientSecure.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/NetworkClientSecure/src/ssl_client.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/ac101/ac101.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/ad1938/ad1938.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/cs43l22/cs43l22.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/es7210/es7210.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/es7243/es7243.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/es7243e/es7243e.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/es8156/es8156.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/es8311/es8311.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/es8374/es8374.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/es8388/es8388.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/tas5805m/tas5805m.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/wm8960/mtb_wm8960.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/wm8978/WM8978.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Driver/wm8994/wm8994.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Platforms/API_I2C_Arduino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Platforms/API_I2C_EspressifIDF.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Platforms/API_SPI_Arduino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Platforms/API_SPI_Others.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-audio-driver/src/Platforms/LoggerSTD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Library/Arduino15/packages/esp32/hardware/esp32/3.1.3/libraries/Wire/src/Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/aacdec.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/aactabs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/bitstream.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/buffers.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/dct4.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/decelmnt.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/dequant.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/fft.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/filefmt.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/huffman.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/hufftabs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/imdct.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/noiseless.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/pns.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbr.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrfft.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrfreq.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrhfadj.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrhfgen.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrhuff.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrimdct.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrmath.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrqmf.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrside.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/sbrtabs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/stproc.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/tns.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-aac/trigtabs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/bitstream.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/buffers.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/dct32.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/dequant.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/dqchan.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/huffman.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/hufftabs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/imdct.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/mp3dec.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/mp3tabs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/polyphase.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/scalfact.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/stproc.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/subband.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/libhelix-mp3/trigtabs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/arduino-libhelix/src/utils/helix_memory.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/FastLED.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/bitswap.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/cled_controller.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/colorpalettes.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/colorutils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/crgb.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/five_bit_hd_gamma.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/allocator.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/bytestreammemory.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/engine_events.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/file_system.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/json.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/rectangular_draw_buffer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/ref.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/screenmap.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/str.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/stub_main.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/xmap.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fl/xymap.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/2d/bilinear_expansion.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/2d/noisepalette.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/2d/scale_up.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/frame.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/fx_engine.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/time.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/video/frame_interpolator.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/video/frame_tracker.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/video/pixel_stream.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/video/video_impl.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/fx/video.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/hsv2rgb.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/lib8tion.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/noise.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/arm/k20/clockless_objectfled.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/avr/avr_millis_timer_source.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/esp/32/clockless_i2s_esp32s3.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/esp/32/i2s/i2s_esp32dev.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/esp/32/rmt_4/idf4_rmt.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/esp/32/rmt_4/idf4_rmt_impl.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/esp/32/rmt_5/idf5_rmt.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/esp/32/rmt_5/strip_rmt.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/esp/32/spi_ws2812/strip_spi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/stub/led_sysdefs_stub.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/active_strip_data.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/compiler/Arduino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/engine_listener.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/fs_wasm.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/js.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/timer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/ui/button.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/ui/checkbox.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/ui/description.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/ui/slider.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/ui/title.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/ui/ui_internal.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/ui/ui_manager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms/wasm/ui/ui_number_field.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/platforms.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/power_mgt.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/rgbw.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/sensors/digital_pin.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/sensors/pir.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/simplex.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/third_party/espressif/led_strip/src/led_strip_api.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/third_party/espressif/led_strip/src/led_strip_rmt_dev.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/third_party/espressif/led_strip/src/led_strip_rmt_encoder.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/third_party/espressif/led_strip/src/led_strip_spi_dev.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/third_party/object_fled/src/OjectFLED.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/transpose8x1_noinline.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/gabriel/Documents/Arduino/libraries/FastLED/src/wiring.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
