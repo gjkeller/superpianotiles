@@ -118,45 +118,6 @@ long startTime;
 long currentTime;
 float secondsElapsed;
 
-#line 119 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void actionKeyIncreaseVolume(bool active, int pin, void *ptr);
-#line 133 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void actionKeyDecreaseVolume(bool active, int pin, void *ptr);
-#line 147 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void setupActions();
-#line 156 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void setupTiles();
-#line 270 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void getMappings(const char *mapping);
-#line 294 "/Users/gabriel/Documents/Arduino/game/game.ino"
-int addNotesFromJson(JsonObject obj, int i);
-#line 435 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void displayNotes();
-#line 514 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void setup();
-#line 558 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void loop();
-#line 593 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void setupLEDs(void *params);
-#line 606 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void runLEDs();
-#line 636 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void setupAudio(void *params);
-#line 647 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void audioPlayer();
-#line 658 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void printNote(piano_note_t note);
-#line 697 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void displayColumns();
-#line 722 "/Users/gabriel/Documents/Arduino/game/game.ino"
-uint32_t lighter(uint32_t color);
-#line 730 "/Users/gabriel/Documents/Arduino/game/game.ino"
-bool processNotes(uint8_t buttonColumn, float currentTime);
-#line 779 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void handleButtonPress(bool button1, bool button2, bool button3, bool button4);
-#line 828 "/Users/gabriel/Documents/Arduino/game/game.ino"
-void activateTaser();
-#line 119 "/Users/gabriel/Documents/Arduino/game/game.ino"
 void actionKeyIncreaseVolume(bool active, int pin, void *ptr)
 {
   if (active)
